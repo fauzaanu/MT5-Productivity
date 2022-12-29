@@ -11,7 +11,7 @@ int allsyms= SymbolsTotal(true);
 
 for (int i=0;i<allsyms;i++){
 ChartOpen(SymbolName(i,true),PERIOD_CURRENT);
-ChartClose(0);
 }
+ChartClose(0);
   }
 
